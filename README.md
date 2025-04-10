@@ -41,3 +41,6 @@ SERVER_URL=ws://localhost:8080
 
 - Start the server
 `cargo run -p fullrstack-server`
+
+## Test the server running a client example
+ cargo run -p fullrstack-examples --bin test_client
