@@ -23,3 +23,21 @@ docker-compose up --build
 ```
 
 3. Visit http://localhost:3000 for the dashboard 
+
+## Runing Lovcally without Docker
+- Create the database
+```
+psql -U postgres -c "CREATE USER fullrstack WITH PASSWORD 'fullrstack';"
+psql -U postgres -c "CREATE DATABASE fullrstack OWNER fullrstack;"
+```
+- Create a .env file in the project root
+```
+DATABASE_URL=postgres://fullrstack:fullrstack@localhost:5432/fullrstack
+RUST_LOG=debug
+SERVER_URL=ws://localhost:8080
+```
+- Migrate 
+`cargo run -p fullrstack-server -- migrate`
+
+- Start the server
+`cargo run -p fullrstack-server`

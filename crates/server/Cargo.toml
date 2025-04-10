@@ -3,6 +3,10 @@ name = "fullrstack-server"
 version.workspace = true
 edition.workspace = true
 
+[[bin]]
+name = "fullrstack-server"
+path = "src/main.rs"
+
 [dependencies]
 fullrstack-common = { path = "../common" }
 tokio = { version = "1.0", features = ["full"] }
