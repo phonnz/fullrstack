@@ -13,7 +13,7 @@ High-performance WebSocket system built with Rust and Leptos.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fullrstack.git
+git clone git@github.com:phonnz/fullrstack.git
 cd fullrstack
 ```
 
