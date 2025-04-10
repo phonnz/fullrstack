@@ -37,4 +37,26 @@ pub enum DeviceCommand {
     Restart,
     UpdateConfig { config: String },
     RequestTelemetry,
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_websocket_message_serialization() {
+        let message = WebSocketMessage::DeviceConnect {
+            device_id: "device-123".to_string(),
+        };
+        
+        let serialized = serde_json::to_string(&message).unwrap();
+        let deserialized: WebSocketMessage = serde_json::from_str(&serialized).unwrap();
+        
+        match deserialized {
+            WebSocketMessage::DeviceConnect { device_id } => {
+                assert_eq!(device_id, "device-123");
+            }
+            _ => panic!("Wrong message type"),
+        }
+    }
 } 

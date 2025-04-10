@@ -17,4 +17,12 @@ serde_json = "1.0"
 anyhow = "1.0"
 thiserror = "1.0"
 metrics = "0.21"
-metrics-exporter-prometheus = "0.12" 
+metrics-exporter-prometheus = "0.12"
+
+[dev-dependencies]
+tokio-test = "0.4"
+pretty_assertions = "1.4"
+async-tungstenite = { version = "0.23", features = ["tokio-runtime"] }
+url = "2.4"
+criterion = { version = "0.5", features = ["async_tokio"] }
+fake = { version = "2.6", features = ["derive"] } 
