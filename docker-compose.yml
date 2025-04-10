@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: fullrstack
+      POSTGRES_PASSWORD: fullrstack
+      POSTGRES_DB: fullrstack
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: server
+    environment:
+      - DATABASE_URL=postgres://fullrstack:fullrstack@database:5432/fullrstack
+      - RUST_LOG=info
+    ports:
+      - "8080:8080"  # WebSocket
+      - "9090:9090"  # Metrics
+    depends_on:
+      - database
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: web
+    ports:
+      - "3000:3000"
+    environment:
+      - SERVER_URL=ws://localhost:8080
+    depends_on:
+      - server
+
+volumes:
+  postgres_data: 

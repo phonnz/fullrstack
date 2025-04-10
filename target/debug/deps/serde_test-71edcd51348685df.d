@@ -1,0 +1,11 @@
+/home/phonnz/Code/rust/fullrstack/target/debug/deps/libserde_test-71edcd51348685df.rmeta: /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/lib.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/assert.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/configure.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/de.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/error.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/ser.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/token.rs
+
+/home/phonnz/Code/rust/fullrstack/target/debug/deps/serde_test-71edcd51348685df.d: /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/lib.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/assert.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/configure.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/de.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/error.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/ser.rs /home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/token.rs
+
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/lib.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/assert.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/configure.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/de.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/error.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/ser.rs:
+/home/phonnz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_test-1.0.177/src/token.rs:

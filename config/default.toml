@@ -1,0 +1,11 @@
+[server]
+host = "0.0.0.0"
+port = 8080
+max_connections = 150000
+
+[database]
+url = "postgres://fullrstack:fullrstack@database:5432/fullrstack"
+
+[metrics]
+enabled = true
+endpoint = "0.0.0.0:9090" 
