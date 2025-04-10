@@ -9,7 +9,7 @@ pub struct DeviceState {
     pub telemetry: DeviceTelemetry,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
 pub struct DeviceTelemetry {
     pub temperature: f32,
     pub humidity: f32,

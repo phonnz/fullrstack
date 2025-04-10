@@ -2,11 +2,12 @@
 members = [
     "crates/common",
     "crates/server",
-    "crates/web"
+    "crates/web",
+    "crates/examples"
 ]
 resolver = "2"
 
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"] 
+authors = ["phonnz <gonzalezm.alfonso@gmail.com>"]

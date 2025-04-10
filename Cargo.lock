@@ -755,6 +755,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "fullrstack-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "fullrstack-common",
+ "futures",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tokio-tungstenite",
+ "url",
+]
+
+[[package]]
 name = "fullrstack-server"
 version = "0.1.0"
 dependencies = [
